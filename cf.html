@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact form</title>
+    <link rel="stylesheet" href="cf.css" >
+</head>
+<body>
+    <header>
+        <div class="header">
+            <p>Contact form</p>
+            <p class="hnote">- Let's make a contact :)</p>
+        </div>
+    </header>
+    
+    <a href="https://www.instagram.com/rahul__2k4/" target="_blank" >
+        <img class="insta" src="https://drive.google.com/uc?export=view&id=13wGcVrCmYjxRp15zvj5tE8oc2lEew1sa" alt="Instagram" width="20px">      
+    </a> 
+    <a href="https://www.linkedin.com/in/rahul-panchal-05610824a/"  target="_blank"> 
+        <img class="lin" src="https://drive.google.com/uc?export=view&id=13kFkGGPBeApxIxvvfbKEuQLSaWWR0MAW" alt="LinkdIn" width="20px">
+    </a>
+    <a href="https://discordapp.com/users/rahul_16#7843"  target="_blank">
+        <img class="discord" src="https://drive.google.com/uc?export=view&id=146tmKFxpC_r3VBbC1n_hL3m7YITUhJK9" alt="Discord" width="24px">
+    </a>
+    <a href="https://t.me/rahulpanchal0106"  target="_blank">
+        <img class="telegram" src="https://drive.google.com/uc?export=view&id=149j5ad2DShyM7NS_T1PS5tRoX4dCcltC" alt="Telegram" width="23px">
+    </a>
+    <a href="https://github.com/rahulpanchal0106"  target="_blank">
+        <img class="github" src="https://drive.google.com/uc?export=view&id=143Yp9am5Ob5NwYDxhjOZ7RMorj03q0CH" alt="Github" width="23px">
+    </a>
+    <a href="https://codepen.io/rahul_mp"  target="_blank">
+        <img class="cp" src="https://drive.google.com/uc?export=view&id=14DJd5LO0wFGz35d7mH0Hma1Zd42Am0ns" alt="Codepen" width="21px">
+    </a>
+    
+    
+    <div class="container">
+        
+        <br>
+        <main>
+            <form>
+                <div class="name">
+                    
+                    
+                    <div  class="fname" >
+                        <div class="fnlabel">
+                            <label class="fn" for="fname">First Name</label>
+                        </div>
+                    <input required type="text"name="fname" class="finame" placeholder="Enter your first name" value="">
+                    </div>
+                    <div  class="mname" >
+                        <div class="mnlabel">
+                            <label class="mn" for="mname">Middle Name</label>
+                        </div>
+                    <input required type="text"name="mname" class="miname" placeholder="Enter your middle name" value="">
+                    </div>
+                    <div  class="lname" >
+                        <div class="lnlabel">
+                            <label class="ln" for="lname">Last Name</label>
+                        </div>
+                    <input required type="text" name="lname" class="liname" placeholder="Enter your last name" value="">
+                    </div>
+                    
+                </div>
+
+                <article class="">
+
+                    <fieldset >
+                        <p class="glabel">Your Gender</p>
+                        <div class="list">
+                            <ul type="none">
+                                <li ><input required type="radio" name="gender" value="male" > Male</li>
+                                <li><input required type="radio" name="gender" value="female"> Female</li>
+                                <li> <input required type="radio" name="gender" value="other" > Other</li>
+                            </ul>   
+                        </div>    
+                        <div class="email">
+                            <p class="ym">Your Email</p>
+                            <input type="email" required class="mail" name="email" placeholder="Enter vaild email address" value="">
+                        </div>         
+                        <div class="subject">
+                            <p class="sub">Subject </p>
+                            <select required name="Subject" class="isubject">
+                                <option value="" name="subject" >--Select--</option>
+                                <option required value="Job Inquiry" name="subject" >
+                                    Job Inquiry
+                                </option>
+                                <option required value="Just a feedback" name="subject">
+                                    Just a feedback
+                                </option>
+                            </select>
+                        </div>   
+                        <div class="wrudiv">
+                            <p class="wrulabel">
+                                And You are...
+                            </p>
+                            <div class="list">
+                                <ul type="none">
+                                    <li ><input required type="radio" name="wru" value="Student" > a Student</li>
+                                    
+                                  <li><input required type="radio" name="wru" value="Employer"> an employer</li>
+                                    <li><input required type="radio" name="wru" value="Employee"> an employee</li>
+                                    
+                                    
+                                </ul>   
+                            </div>  
+                        </div>
+                    </fieldset>
+
+                </article>
+                <article class="messagediv">
+                    <p class="maslabel">Your message </p>
+                    <textarea required  placeholder="Say hi to me! " rows="8" cols="73" class="message" cols="30" value=""name="message"></textarea> 
+                </article>
+
+                <div class="upload-btn-wrapper">
+                    <button class="btn">Upload your resume</button>
+                    <input type="file" name="resume" classs="resume" />
+                </div>
+        </main>
+      
+    </div>
+    <div class="submit">
+        <input type="submit" value="SUBMIT" id="button-blue"/>
+        <div class="ease"></div>
+    </div>
+</form>
+
+</body>
+</html>
+

@@ -1,0 +1,303 @@
+.container{
+    padding:10%;
+    margin-bottom:5%;
+    padding-top:0px;
+    padding-left:3%;
+    margin-top: 2%;
+    background-color:rgb(218, 218, 218);
+    border-left-style:solid;
+    border-left-color:rgb(0, 0, 0);
+    border-left-width: 7px;
+    box-shadow: #fbfbfb;
+    height: 400px;
+}
+.ln,.mn , .fn{
+    margin-left: 5%;
+    
+}
+.lnlabel,.mnlabel, .fnlabel{
+    padding-bottom:2%;
+}
+
+
+.fname, .mname, .lname{
+    display: inline-block ;
+    margin-left: 13%;
+    margin-right:0%;
+    padding-bottom:3%;
+    
+    
+}
+
+.finame,.miname, .liname, .mail,.isubject{
+    
+    border-radius: 3.5px;
+    border-color:#000000;
+    border-style: solid;
+    margin: 2%;
+    padding: 2%;
+    
+}
+.mail{
+    width: 100%;
+}
+.isubject{
+    border-radius: 3.5px;
+    border-color:#000000;
+    border-style: solid;
+    margin: 2%;
+    padding: 2%;
+    border-width: 2px;
+}
+.header{
+    font-size: 250%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-rendering: geometricPrecision;
+    letter-spacing: 3px;
+    
+    background-color:rgb(218, 218, 218);
+    border-left: 7px;
+    border-left-color:rgb(0, 0, 0);
+    border-left-style: solid;
+   margin: 0%;
+   padding: 3%;
+   
+    
+}
+
+*{
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.hnote{
+    margin:0;
+    margin-bottom:5%;
+    font-size:10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.email, .subject,.wrudiv{
+    margin-left: 13%;
+    
+}
+main p, label{
+    font-weight: 500;
+}
+
+body{
+    
+  
+    margin: 10%;
+    padding: 0%;
+}
+fieldset{
+    border-radius: 0px;
+    border-color: rgb(0,0,0);
+    padding: 1%;
+    width:100%;
+    margin-right: 10%;
+    padding-left: 1%;;
+    border-right:none;
+    border-left:0;
+
+}
+.list{
+    margin-left:-1%;
+    margin-top:-8px;
+}
+.glabel{
+    margin-bottom: -20px;
+   
+    width:100px;
+    padding-bottom: 0%;
+}
+
+.wrulabel{
+    margin-bottom: -0px;
+   
+    width:100px;
+    padding-bottom: 0%;
+}
+ul{
+    margin-left:-40px;
+}
+.list, .email, .subject, .wrudiv{
+    display:inline-block;
+}
+.message{
+    
+    margin-right:0%;
+    margin-bottom: 00px;
+    border-radius: 3.5px;
+    border-color:#000000;
+    border-style: solid;
+    border-width: 2.5px;
+}
+.messagediv, .resumediv{
+    display: inline-block;
+
+}
+.messagediv{
+    margin-right: 0px;
+}
+.upload-btn-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    margin-left: 18%;
+    margin-top:7;
+    cursor:pointer;
+}
+  
+.btn {
+    border: 2px solid #000000;
+    color: #000000;
+    background-color: white;
+    padding: 8px 20px;
+    border-radius: 3px;
+    font-size: 20px;
+    font-weight:400;
+    cursor:pointer;
+    
+  }
+  
+  .upload-btn-wrapper input[type=file] {
+    font-size: 20px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    cursor:pointer;
+    height: 300%;
+    
+  }
+
+
+  
+
+
+
+  html{
+    background-color: rgb(218,218,218);
+}
+#button-blue{
+	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+	float:left;
+	width: 100%;
+	border: rgb(0, 0, 0) solid;
+    border-left-width:7px;
+    border-right-width:4px;
+    border-top-width: 4px;
+    border-bottom-width: 4px;
+	cursor:pointer;
+	background-color: #e5e5e5;
+	color:rgb(0, 0, 0);
+	font-size:24px;
+	padding-top:22px;
+	padding-bottom:22px;
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	transition: all 1s;
+  margin-top:-4px;
+  font-weight:700;
+  z-index: 10;
+}
+
+#button-blue:hover{
+	background-color: rgba(0,0,0,0);
+	color: #e7e7e7;
+}
+	
+.submit:hover {
+	color: #000000;
+}
+	
+.ease {
+	width: 0px;
+	height: 74px;
+	background-color: #000000;
+	-webkit-transition:1s ease;
+	-moz-transition: 1s ease;
+	-o-transition: 1s ease;
+	-ms-transition: 1s ease;
+	transition: 1s ease;
+}
+
+.submit:hover .ease{
+  width:100%;
+  background-color:rgb(0, 0, 0);
+}
+
+
+.insta{
+    padding-left: 46%;
+}
+.lin, .discord, .telegram , .github {
+    padding-left: 2%;
+}
+
+.cp{
+    width: 100px;
+    padding-left: 1.5%;
+}
+a{
+    text-decoration: none;
+}
+.insta::placeholder{
+
+    
+}
+
+@media screen and (max-width: 1256px) and (min-width: 800px){
+  .container {
+    height:590px;
+  }
+}
+@media screen and (max-width: 800px) and (min-width: 335px){
+  .container {
+    height:720px;
+  }
+  .message{
+    width: 200px;
+    height: 100px;
+  }
+  .btn{
+    width: 50%;
+    height:50px ;
+  }
+  
+}
+@media screen and (1px<width<335px)  {
+  .container {
+    height:880px;
+  }
+    .message{
+    width: 200px;
+    height: 100px;
+  }
+  .btn{
+    width: 90%;
+    height:50px ;
+    font-size: 14px;
+  }
+  .list{
+    margin-left:-1%;
+    margin-top:8px;
+}
+  .socials{
+    margin-left: -225px;
+    margin-top: 15px;
+    margin-bottom: 12px;
+  }
+ 
+.lin, .discord, .telegram , .github, .insta{
+   width: 19px;
+}
+  .cp{
+    width: 90px;
+  }
+  .email, .subject, .wrudiv{
+    margin-left: 0%;
+  }
+}

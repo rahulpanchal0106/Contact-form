@@ -25,7 +25,7 @@ body {
   padding: 0.5rem;
   background-color: rgb(218, 218, 218);
   max-width: 769px;
-  border-left: 7px solid rgb(0, 0, 0);
+  
   height: auto;
 }
 
@@ -35,6 +35,7 @@ body {
   align-items: flex-start;
   justify-content: space-between;
   margin: 0 0 1rem;
+  border-left: 7px solid rgb(0, 0, 0);
   max-width: var(--max-width-all);
 }
 
@@ -56,25 +57,62 @@ body {
 }
 
 .header__links {
-  display: flex;
-  align-self: flex-end;
-  justify-content: space-between;
+  margin-left: 55%;
+  margin-bottom: 2%;
+  
 }
 
 .header__logo {
   width: 100px;
   padding-left: 1.5%;
+  margin-left: 3%;
 }
 
 .logo {
-  margin-left: 0.5rem;
+  margin-left: 0.7rem;
   width: 20px;
 }
 
+.hdiv{
+  margin-bottom: px;
+  
+  margin-left: 5%;
+}
+.home{
+  transition: all 2s;
+  
+}
+.home:hover{
+  src: url(https://drive.google.com/uc?export=view&id=14GaCZBwCHSPh-eSGfvoCHp8KLmqRsoGr);
+}
+#insta, #lin, #disc, #teleg, #ghub{
+  transition: transform 2s ease ;
+}
+#insta:hover, #lin:hover, #disc:hover, #teleg:hover, #ghub:hover{
+  transform: rotate(360deg) ;
+}
+/* .homie{
+  background-image: url(https://drive.google.com/uc?export=view&id=14LmFwfNueBCsJgsrmmDtWqbe8JOzLEJJ);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  width: 23px;
+  height: 23px;
+  left: 89vw;
+position:absolute;
+transition: background-image 0.8s;
+} */
+/* .homie:hover{
+  background-image: url(https://drive.google.com/uc?export=view&id=14GaCZBwCHSPh-eSGfvoCHp8KLmqRsoGr);
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
 /* forms */
 
 .container {
   box-shadow: #fbfbfb;
+  border-left: 7px solid rgb(0, 0, 0);
+  margin-left: 5%;
 }
 
 .list__inputs {
@@ -196,18 +234,34 @@ body {
   color: rgb(0, 0, 0);
   font-size: 24px;
   padding: 22px 0;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  transition: all 0.3s;
+  -webkit-transition: all 3s;
+  -moz-transition: all 3s;
+  transition: all 3s;
   margin: 1rem auto;
   font-weight: 700;
   z-index: 10;
   max-width: var(--max-width-all);
+  margin-left: 0%;
+}
+.ease{
+  color:black;
+  z-index:-1;
+ width: 0px;
+  height:78.6px;
+  top:20px;
+  position:relative;
+  transition: all 2s ease;
+}
+.submit:hover .ease{
+  width: 100%;
+  background-color:black;
 }
 
 #button-blue:hover {
-  background-color: rgb(0, 0, 0);
-  color: #e7e7e7;
+ background-color: rgb(0, 0, 0);
+ color: #e7e7e7;
+ width: 100%;
+  
 }
 
 @media screen and (min-width: 768px) {
